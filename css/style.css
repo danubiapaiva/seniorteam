@@ -187,6 +187,11 @@ h6 {
   color: #0189c3;
 }
 
+
+#header.header-scrolled mobile-nav-toggle i{
+  color:#0189c3;
+}
+
 #header #logo {
   float: left;
 }
@@ -1284,6 +1289,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio {
   padding: 60px 0;
+  margin-top: -63;
 }
 
 #portfolio #portfolio-flters {
