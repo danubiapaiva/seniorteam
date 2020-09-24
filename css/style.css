@@ -80,6 +80,10 @@ h6 {
   font-size: 32px;
 }
 
+/* Banner */
+.banner{width: 100%; float:left; text-align: center;padding: 3% 4%; background: url(../img/intro-carousel/gestao-processos.jpg) no-repeat fixed top center;}
+.banner h2{font-size: 2.5em; color: #fff; font-weight: 700;}
+.banner h3{font-size: 1.5em; color: #fff;}
 
 /* Back to top button */
 
@@ -635,7 +639,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #0189c3;
+  color: #fff;
 }
 
 /* Mobile Nav Styling */
@@ -936,6 +940,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #featured-services {
   background: #f7f7f7;
+  padding-top: 64px;
 }
 
 #featured-services .box {
@@ -1910,7 +1915,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: none;
   } 
   #about {
-    padding: 100px 0 40px 0;
+    padding: 52px 0 40px 0;
   }  
   .col-lg-13{
     display: none;
@@ -1932,7 +1937,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   } 
     #intro {
     display: flex;
-    height: 171px;  
+    height: 319px;  
   }
   #services {
     padding: 105px 0 40px 0
@@ -1959,13 +1964,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   #menuservicos {
     margin-left: auto;
     margin-top: 750px;
+  }  
+  #contact {
+    margin-top: 57px;
   }
   .footer-info{
     font-size: 24px;
   }
   .jquery-accordion-menu{
     margin-bottom: 77px;
-  } 
+  }
 }
 @media (min-width: 481px) and (max-width: 767px) {
   #featured-services{
