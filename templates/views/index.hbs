@@ -83,6 +83,14 @@
               }
             }
           });
+
+          $(window).scroll(function() {
+            var value = $(this).scrollTop();
+            if (value > 100)
+               $('#mobile-nav-toggle i').css('color', '#0189c3')
+            else
+                $('#mobile-nav-toggle i').css('color', '#FFFFFF')
+            });
         } else if ($("#mobile-nav, #mobile-nav-toggle").length) {
           $("#mobile-nav, #mobile-nav-toggle").hide();
         }       

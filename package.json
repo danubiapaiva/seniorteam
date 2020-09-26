@@ -13,7 +13,9 @@
     "express": "^4.17.1",
     "hbs": "^4.1.1",
     "mongoose": "^5.10.3",
-    "request": "^2.88.2"
+    "nodemailer": "^6.4.11",
+    "request": "^2.88.2",
+    "smtp-locaweb-nodejs": "^1.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"

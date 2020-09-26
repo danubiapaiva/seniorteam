@@ -21,7 +21,7 @@ app.use(express.json())
 /**
  * Routers
  */
-const seniorTeamRouter = require('./routes/senior-team')
+const seniorTeamRouter = require('./routes/seniorTeam')
 app.use(seniorTeamRouter)
 
 module.exports = app
